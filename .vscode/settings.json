@@ -1,0 +1,50 @@
+{
+  "folders": [
+    {
+      "path": "..\\LearnWithSummitCodes\\Project"
+    },
+    {
+      "path": "..\\React Applications"
+    }
+  ],
+  "settings": {
+    "workbench.colorTheme": "Monokai",
+    "eslint.format.enable": true,
+    "eslint.packageManager": "yarn",
+    "prettier.singleQuote": true,
+    // config related to code formatting
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "[javascript]": {
+      "editor.formatOnSave": true,
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascriptreact]": {
+      "editor.formatOnSave": true,
+      "editor.defaultFormatter": null
+    },
+    "javascript.validate.enable": false, //disable all built-in syntax checking
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true,
+      "source.fixAll.tslint": true,
+      "source.organizeImports": true
+    },
+    "eslint.alwaysShowStatus": true,
+    "eslint.lintTask.enable": true,
+    /*  "eslint.options": {
+      "parser": "@babel/eslint-parser"
+    }, */
+    "eslint.validate": [
+      "javascript",
+      "javascriptreact",
+      "html",
+      "typescriptreact"
+    ],
+    // emmet
+    "emmet.triggerExpansionOnTab": true,
+    "emmet.includeLanguages": {
+      "javascript": "javascriptreact"
+    },
+    "autoimport.filesToScan": "**/*.{js,jsx,ts,tsx}"
+  }
+}

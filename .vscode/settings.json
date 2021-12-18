@@ -1,12 +1,5 @@
 {
-  "folders": [
-    {
-      "path": "..\\LearnWithSummitCodes\\Project"
-    },
-    {
-      "path": "..\\React Applications"
-    }
-  ],
+  
   "settings": {
     "workbench.colorTheme": "Monokai",
     "eslint.format.enable": true,
